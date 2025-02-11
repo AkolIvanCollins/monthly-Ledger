@@ -1,0 +1,141 @@
+.accordion-button {
+  background-color: #0000ff; /* Custom background color (blue) */
+  color: white; /* Custom text color */
+}
+
+.accordion-button:focus {
+  box-shadow: none; /* Remove the default focus outline */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color:  #0d4bfd; /* Custom color for active state (slightly-light-blue) */
+  color: white ;
+}
+
+.accordion-body {
+  background-color: #f0f8ff; /* Custom body background color (AliceBlue) */
+  color: #333; /* Custom body text color */
+}
+.container{
+  display: flex;
+  justify-content: center; /* centers the button horizontally*/
+  font-family: "Verdana";
+  font-size:16px;
+}
+.containerCalculateBudget{
+  display: flex;
+  justify-content:center;
+  background-color: #f0f8ff;
+  color:white;
+  font-family: "Verdana";
+  font-size: 16px;
+  padding: 18px 18px 18px 20px;
+}
+
+.containerAddIncome{
+  display: flex;
+  justify-content:center;
+  background-color: #f0f8ff;
+  color:white;
+  font-family: "Verdana";
+  font-size: 16px;
+  padding: 1px 18px 1px 20px;
+}
+
+.custom-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0px 0px 0px 8px;
+}
+
+.custom-button:hover {
+  background-color: darkgreen;
+}
+
+.custom-button:active {
+  background-color: #3e8e41; /* Darkest green when clicked */
+  transform: translateY(2px); /* Pressed effect */
+}
+
+.custom-button:disabled {
+  background-color: #ddd; /* Gray background */
+  color: #999; /* Gray text */
+  cursor: not-allowed; /* Disabled cursor */
+}
+
+                                                                                            /* Delete style starts here*/ 
+.entry {
+  display: flex;
+  align-items: center;
+}
+
+.flex-grow-1 {
+  flex-grow: 1; /* Allow input fields to grow while keeping the delete button fixed */
+}
+
+.delete-entry {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-entry:hover {
+  background-color: darkred;
+}
+
+#income-entries {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+#expense-entries {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.input-group .form-control.amount {
+  text-align: right; /* Align numbers to the right */
+}
+
+.input-group .form-control.source {
+  text-transform: capitalize; /* Capitalize the first letter of the source */
+}
+
+.input-group .form-control.expense {
+  text-transform: capitalize; /* Capitalize the first letter of the source */
+}
+
+.receipt-grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns*/
+  gap: 20px;
+}
+
+.income-column, .expense-column {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.totals{
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 2px solid #000;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
